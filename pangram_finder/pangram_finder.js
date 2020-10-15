@@ -15,4 +15,7 @@ PangramFinder.prototype.isPangram = function () {
 	}
 };
 
+// one line solution
+// return this.alphabet.every((letter) => this.phrase.includes(letter));
+
 module.exports = PangramFinder;
