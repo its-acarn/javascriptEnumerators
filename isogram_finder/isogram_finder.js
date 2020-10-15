@@ -33,7 +33,4 @@ IsogramFinder.prototype.isIsogram = function () {
 // return this.word.indexof(letter) === this.word.lastIndexOf(letter);
 // };
 
-const isogramFinder = new IsogramFinder('repeated');
-isogramFinder.isIsogram();
-
 module.exports = IsogramFinder;
